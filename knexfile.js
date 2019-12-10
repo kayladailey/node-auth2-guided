@@ -1,20 +1,4 @@
-module.exports = {
-  development: {
-    client: 'sqlite3',
-    useNullAsDefault: true,
-    connection: {
-      filename: './database/auth.db3',
-    },
-    pool: {
-      afterCreate: (conn, done) => {
-        conn.run('PRAGMA foreign_keys = ON', done);
-      },
-    },
-    migrations: {
-      directory: './database/migrations',
-    },
-    seeds: {
-      directory: './database/seeds',
-    },
-  },
-};
+const server = require('./api/server.js');
+
+const port = process.env.PORT || 5000;
+server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
