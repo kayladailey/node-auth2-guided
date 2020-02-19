@@ -14,3 +14,12 @@ Guided project for **Web Auth III** Module.
 - [ ] type `npm run server` to start the API.
 
 Please follow along as the instructor adds support for `JSON Web Tokens (JWT)` to the API.
+
+## Files with notes:
+
+- ./api/server.js
+- ./auth/auth-router.js
+- ./auth/check-role-middleware.js
+- ./auth/restricted-middleware.js
+- ./config/secrets.js
+- ./users/users-router.js
