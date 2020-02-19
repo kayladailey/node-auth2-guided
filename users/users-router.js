@@ -32,6 +32,7 @@ router.get('/', restricted, checkRole('Admin'), (req, res) => {
 //----------------------------------------------------------------------------//
 router.get('/something', restricted, checkRole('Student'), checkRole('Tutor'), (req, res) => {
   // do your thing here.
+  res.end();
 })
 
 module.exports = router;
