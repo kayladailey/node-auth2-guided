@@ -1,7 +1,7 @@
 {
-  "name": "auth-iii-guided",
+  "name": "node-2-guided",
   "version": "1.0.0",
-  "description": "Auth III Module Guided Project",
+  "description": "Auth 2 Guided Project",
   "main": "index.js",
   "scripts": {
     "server": "nodemon",
