@@ -1,16 +1,16 @@
 # Web Auth III Guided Project
 
-Guided project for **Web Auth III** Module.
 
-## Prerequisites
+## Completion Steps
+- `npm i` to download dependencies.
+-  `npm run server` to start the API.
+-   npm add  jsonwebtoken
 
-- [SQLite Studio](https://sqlitestudio.pl/index.rvt?act=download) installed.
+//Server.js
+- Add jwt library to server file
+- Add /tokem endpoint 
+- In the token endpoint add payload and options objects and the secret 
+*Check in Postman* 
+Should return a token
+*check token in jwt.io*
 
-## Project Setup
-
-- [ ] fork and clone this repository.
-- [ ] **CD into the folder** where you cloned **your fork**.
-- [ ] type`npm i` to download dependencies.
-- [ ] type `npm run server` to start the API.
-
-Please follow along as the instructor adds support for `JSON Web Tokens (JWT)` to the API.
