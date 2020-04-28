@@ -23,3 +23,7 @@ Should return a token
 //config - secrets.js
 - We want to keep our secrets in a seperate file
 
+
+
+// TO-DO
+- Review try catch error handling 

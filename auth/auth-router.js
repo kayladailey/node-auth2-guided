@@ -51,15 +51,19 @@ function generateToken(user){
 
   const payload = {
     subject: user.id,
-    userid: user.username
+    userid: user.username,
+    roles: ['STUDENT']
   };
 
   const secret = secrets.jwt_secret;
   
 const options = {
   expiresIn: "30m"
-}
-return   jwt.sign(payload, secret, options)
+};
+
+const token = jwt.sign(payload, secret, options);
+console.log(token);
+return  token;
 }
 
 module.exports = router;
